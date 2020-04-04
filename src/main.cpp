@@ -211,7 +211,7 @@ void loop()
   printValue(pres, "Pressure (BME280)", "hPa");
   printValue(alt, "Altitude (BME280)", "m");
   Serial.println("-----------LIGHT-------------");
-  printValue(lux1, "Luminance (CCS811B)", "lux");
+  printValue(lux1, "Luminance (VEML6030)", "lux");
   printValue(lux2, "Luminance (BH1715_H)", "lux");
   printValue(lux2, "Luminance (BH1715_L)", "lux");
   Serial.println("------------AIR--------------");
